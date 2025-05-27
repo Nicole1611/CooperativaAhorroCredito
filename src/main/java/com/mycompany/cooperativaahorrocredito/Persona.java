@@ -22,8 +22,10 @@ public class Persona {
     }
     
     public void imprimir (){
+        System.out.println("---------DATOS DE "+nombre+"---------");
         System.out.println("Nombre: "+nombre);
         System.out.println("Identificacion: "+identificacion);
         System.out.println("Correo: "+ correo);
+        System.out.println("--------------------------------------");
     }
 }
