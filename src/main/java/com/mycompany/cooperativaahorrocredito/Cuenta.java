@@ -63,7 +63,7 @@ public class Cuenta {
     
     public void imprimir (){
         System.out.println("--------DATOS DE "+titular+"--------");
-        System.out.println("El nuemro de cuenta es: "+numeroCuenta);
+        System.out.println("El numero de cuenta es: "+numeroCuenta);
         System.out.println("Su saldo es de: "+ saldo);
         System.out.println("Titular: "+ titular);
         System.out.println("Tipo de cuenta: "+ tipocuenta);
