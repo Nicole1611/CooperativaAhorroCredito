@@ -21,11 +21,9 @@ public class CooperativaAhorroCredito {
         objcuenta1.retirar(200);
         objcuenta1.transferir(objcuenta2, 20);
         
-        //Persona 1
-        Persona1.imprimir();  
+        //Persona 1 
         objcuenta1.imprimir();    
         //Persona 2
-        Persona2.imprimir();
         objcuenta2.imprimir();
     }
 }
